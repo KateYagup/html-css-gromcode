@@ -9,3 +9,9 @@
 .container>div:nth(3) {
     visibility: visible;
 }
+
+.container>div {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
