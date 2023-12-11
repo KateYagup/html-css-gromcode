@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
 }
 
 h1 {
-    margin: auto;
+    /* margin: auto; */
+    text-align: center;
 }
 
 .article {
