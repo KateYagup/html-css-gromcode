@@ -1,0 +1,37 @@
+.image-container {
+    display: flex;
+    margin: 50px auto;
+    /* width: 100px; */
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.gallery {
+    display: flex;
+}
+
+.caption {
+    line-height: 30px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.opacity-filter {
+    filter: opacity(50%);
+}
+
+.blur-filter {
+    filter: blur(4px);
+}
+
+.invent-filter {
+    filter: invent(100%);
+}
