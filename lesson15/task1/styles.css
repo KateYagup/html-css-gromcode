@@ -1,9 +1,14 @@
 .image-container {
-    display: flex;
-    margin: 50px auto;
+    /* display: flex; */
+    margin: 50px 0;
     /* width: 100px; */
+}
+
+.image {
     border-radius: 20px;
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .gallery {
@@ -13,6 +18,7 @@
 .caption {
     line-height: 30px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 .gallery {
@@ -33,5 +39,5 @@
 }
 
 .invent-filter {
-    filter: invent(100%);
+    filter: invert(100%);
 }
