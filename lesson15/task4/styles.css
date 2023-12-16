@@ -15,15 +15,15 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 50px;
+    opacity: 0.5;
 }
 
 .image-container {
     position: absolute;
     left: calc(50% - 250px);
-    opacity: 0.5;
 }
 
-.image-container:hover {
+.image-button:hover {
     opacity: 1;
 }
 
