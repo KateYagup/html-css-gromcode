@@ -64,6 +64,5 @@
 }
 
 .form-input:invalid {
-    border-color: #ff0000;
-    border-width: 3px;
+    border: 3px solid red;
 }
