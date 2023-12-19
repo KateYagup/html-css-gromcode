@@ -3,5 +3,9 @@
 }
 
 form {
+    margin: 32px;
+}
+
+input {
     margin: 8px;
 }

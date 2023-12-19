@@ -2,11 +2,26 @@
     box-sizing: border-box;
 }
 
+.page {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
 .login-form {
     background-color: aqua;
     font-family: monospace;
-    position: absolute;
-    left: calc(50% - 150px);
+    /* position: absolute;
+    left: calc(50% - 150px); */
     font-size: 16px;
     width: 300px;
     padding: 16px;
