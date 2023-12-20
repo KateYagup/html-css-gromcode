@@ -8,9 +8,10 @@ form {
 
 input {
     margin: 8px;
-    display: block;
+    /* display: block; */
 }
 
-input[type="radio"] {
+
+/* input[type="radio"] {
     display: inline;
-}
+} */
