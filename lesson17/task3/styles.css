@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+table,
+td {
+    border-collapse: collapse;
+}
+
 td {
     width: 50px;
     height: 50px;
@@ -31,10 +36,6 @@ td:nth-child(1) {
     background-color: white !important;
 }
 
-tr:nth-child(2) td {
-    border-top: 1px solid black;
-}
-
-tr:nth-child(2) td:nth-child(2)::nth-child(9) {
-    border-top: 1px solid black;
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
+    border: 1px solid black;
 }
