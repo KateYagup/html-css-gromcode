@@ -13,6 +13,7 @@ caption {
 
 tr {
     border-collapse: collapse;
+    line-height: 40px;
 }
 
 table,
@@ -26,7 +27,6 @@ th {
 td,
 th {
     padding: 4px;
-    line-height: 40px;
 }
 
 div {
