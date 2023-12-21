@@ -1,0 +1,19 @@
+i {
+    justify-content: space-around;
+}
+
+.fa-battery-full {
+    font-size: 16px;
+}
+
+.fa .fa-battery-three-quarters {
+    font-size: 32px;
+}
+
+.fa-battery-quarter {
+    font-size: 64px;
+}
+
+.fa-battery-empty {
+    font-size: 64px;
+}
