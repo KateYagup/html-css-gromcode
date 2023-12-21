@@ -13,7 +13,7 @@ caption {
 
 tr {
     border-collapse: collapse;
-    height: 40px;
+    /* height: 40px; */
 }
 
 table,
@@ -22,6 +22,7 @@ th {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: right;
+    height: 40px;
 }
 
 td,
