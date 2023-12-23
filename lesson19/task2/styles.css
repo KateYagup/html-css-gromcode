@@ -14,12 +14,12 @@
     0% {
         left: 0;
         top: 0;
-        background-color: coral;
+        background-color: cornflowerblue;
     }
     25% {
         left: 300px;
         top: 0;
-        background-color: cornflowerblue;
+        background-color: coral;
     }
     50% {
         left: 300px;
@@ -31,4 +31,9 @@
         top: 300px;
         background-color: yellowgreen;
     }
+    /* 100% {
+        left: 0;
+        top: 0;
+        background-color: coral;
+    } */
 }
