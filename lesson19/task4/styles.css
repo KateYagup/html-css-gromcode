@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@keyframes ease {
+@keyframes easy {
     from {
         top: 100px;
     }
@@ -13,18 +13,18 @@
 
 .block {
     position: absolute;
-    top: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14ox;
+    font-size: 14px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
     text-align: center;
+    border-radius: 10px;
     width: 250px;
     height: 100px;
     line-height: 100px;
     background-color: coral;
     left: calc(50% - 125px);
-    animation: ease 2s;
+    animation: easy 2s;
     animation-fill-mode: forwards;
 }
