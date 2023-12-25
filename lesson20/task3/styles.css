@@ -29,6 +29,7 @@
     border-top: 4px solid black;
     border-radius: 50px;
     margin-bottom: 8px;
+    transform: rotate(30deg);
     animation: load 2s;
 }
 
