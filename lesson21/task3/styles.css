@@ -27,11 +27,6 @@ body {
     text-align: center;
 }
 
-
-/* h1 {
-    margin: auto;
-} */
-
 .footer {
     background-color: #e5e5e5;
     padding: 0.5em;
@@ -44,11 +39,6 @@ body {
     display: flex;
 }
 
-.navigation {
-    padding: 0.5em;
-    width: 20%;
-}
-
 .section {
     padding: 0.5em;
     width: 60%;
@@ -56,22 +46,9 @@ body {
     line-height: 1.75em;
 }
 
-.section>p {
-    /* font-size: 1.25em; */
-}
-
 .news {
     padding: 0.5em;
     width: 20%;
-}
-
-.section>ul {
-    /* font-size: 1.75rem; */
-    /* list-style-type: none; */
-}
-
-.units-list li {
-    /* line-height: 1.75em; */
 }
 
 .css-units {
@@ -87,7 +64,8 @@ body {
 }
 
 .navigation {
-    padding: 0;
+    padding: 0.5em;
+    width: 20%;
 }
 
 .nav-list {
