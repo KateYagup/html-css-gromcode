@@ -23,6 +23,7 @@ body {
     color: white;
     background-image: linear-gradient(60deg, red, orange);
     display: flex;
+    width: 100vw;
 }
 
 h1 {
@@ -34,7 +35,6 @@ h1 {
     padding: 0.5em;
     display: flex;
     width: 100vw;
-    display: flex;
     justify-content: center;
 }
 
@@ -50,29 +50,33 @@ h1 {
 .section {
     padding: 0.5em;
     width: 60%;
+    /* font-size: 1.25rem; */
+}
+
+.section>p {
     font-size: 1.25em;
 }
 
+.news {
+    padding: 0.5em;
+    width: 20%;
+}
+
 .section>ul {
-    font-size: 1.75em;
+    /* font-size: 1.75rem; */
     /* list-style-type: none; */
 }
 
 .css-units {
     color: #8b0000;
     background-color: #e5e5e5;
-    font-size: 1.123em;
+    font-size: 1.125em;
     font-weight: 700;
 }
 
 .section__header {
     font-size: 5vw;
     text-align: center;
-}
-
-.news {
-    padding: 0.5em;
-    width: 20%;
 }
 
 .navigation {
@@ -89,9 +93,11 @@ h1 {
     color: white;
     line-height: 2em;
     margin-bottom: 0.5em;
+    max-width: 100%;
 }
 
 .nav-list-link {
+    display: block;
     color: white;
     text-decoration: none;
     padding: 0 0.5em;
