@@ -1,0 +1,45 @@
+.nav {
+    background-color: #ff7f50;
+    /* flex-grow: 1; */
+    flex: auto 1 0;
+}
+
+.products {
+    background-color: #006400;
+    flex: auto 1 0;
+}
+
+.news {
+    background-color: #0ff;
+    flex: auto 1 2;
+}
+
+.block {
+    height: 200px;
+    display: flex;
+    /* flex-grow: 1; */
+}
+
+span {
+    text-transform: lowercase;
+    font-family: Verdana;
+    padding: 8px;
+    background-color: #faebd7;
+    border-radius: 4px;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .nav-prod {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .all {
+        display: flex;
+    }
+    .nav-prod {
+        flex: auto 2 0;
+    }
+}
