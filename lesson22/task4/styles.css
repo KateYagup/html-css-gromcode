@@ -57,7 +57,7 @@ i {
 }
 
 @media screen and (min-width:600px) {
-    .header {
+    .custom-button {
         display: none;
     }
     .navigation {
