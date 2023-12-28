@@ -1,21 +1,21 @@
-.nav {
+.navigation {
     background-color: #ff7f50;
     /* flex-grow: 1; */
     flex: auto 1 0;
 }
 
-.products {
+.products-list {
     background-color: #006400;
     flex: auto 1 0;
 }
 
 .news {
     background-color: #0ff;
-    flex: auto 1 2;
+    flex: 1 2 auto;
 }
 
 .block {
-    height: 200px;
+    min-block-size: 200px;
     display: flex;
     /* flex-grow: 1; */
 }
@@ -30,16 +30,16 @@ span {
 }
 
 @media screen and (min-width: 600px) {
-    .nav-prod {
+    .products {
         display: flex;
     }
 }
 
 @media screen and (min-width: 900px) {
-    .all {
+    .container {
         display: flex;
     }
-    .nav-prod {
-        flex: auto 2 0;
+    .products {
+        flex: 2 0 auto;
     }
 }
