@@ -1,17 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
 .navigation {
     background-color: #ff7f50;
     /* flex-grow: 1; */
-    flex: auto 1 0;
+    flex: 1;
 }
 
 .products-list {
     background-color: #006400;
-    flex: auto 1 0;
+    flex: 1;
 }
 
 .news {
     background-color: #0ff;
-    flex: 1 2 auto;
+    flex: 1;
 }
 
 .block {
@@ -31,15 +42,14 @@ span {
 
 @media screen and (min-width: 600px) {
     .products {
-        display: flex;
+        flex-direction: row;
+        flex: 2;
     }
 }
 
 @media screen and (min-width: 900px) {
     .container {
         display: flex;
-    }
-    .products {
-        flex: 2 0 auto;
+        flex-direction: row;
     }
 }
