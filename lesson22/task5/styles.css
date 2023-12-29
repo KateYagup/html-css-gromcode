@@ -142,12 +142,12 @@ img {
         flex-direction: row;
         width: 80%;
     }
-    .navigation {
+    /* .navigation {
         width: 20%;
     }
     .section {
         width: 60%;
-    }
+    } */
     .news {
         width: 20%;
     }
