@@ -3,7 +3,7 @@
 }
 
 .nav-list {
-  height: 56x;
+  height: 56px;
   padding: 0;
   margin: 0;
   display: flex;
@@ -13,8 +13,8 @@
 .nav-list__item {
   border-radius: 4px;
   background-color: #ff7f50;
-  padding: 8x;
-  margin-left: 8x;
+  padding: 8px;
+  margin-left: 8px;
   font-weight: 700;
   cursor: pointer;
 }
