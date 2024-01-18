@@ -10,6 +10,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  @include for-portrait {
+    flex-direction: column;
+  }
+
+  @include for-landscape {
+    flex-direction: row;
+  }
 }
 
 .square {
@@ -22,13 +30,13 @@
   //     background-color: ff7f50;
   //   }
 
-  @include for-medium-up {
+  @include for-small-up {
     background-color: #8a2be2;
   }
-  @include for-large-up {
+  @include for-medium-up {
     background-color: #a61;
   }
-  @include for-largest {
+  @include for-large-up {
     background-color: #c47;
   }
 }
