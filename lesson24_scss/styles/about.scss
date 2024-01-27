@@ -1,15 +1,35 @@
+@import 'breakpoints.scss';
+
 .about {
-  /* width: 1140px; */
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 77px 130px 76px 130px;
+  padding: 46px 15px;
   background-color: #f4f5f7;
+  width: 100%;
+
+  @include for-medium-up {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+
 }
 
 .article {
-  width: 555px;
+  &:last-child {
+    margin-top: 20px;
+
+    @include for-medium-up {
+      margin-top: 0;
+    }
+  }
+
+  // margin-top: 20px;
+
+  @include for-medium-up {
+    width: 555px;
+  }
+
+
 
   &__title {
     color: #2b292d;
@@ -18,7 +38,8 @@
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px; /* 145.455% */
+    line-height: 32px;
+    /* 145.455% */
     margin: 0;
   }
 
