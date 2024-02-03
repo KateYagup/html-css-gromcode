@@ -5,7 +5,7 @@
   flex-direction: column;
   // flex-wrap: wrap;
 
-  @include for-medium-up {
+  @include for-large-up {
     width: 1140px;
     margin: auto;
     display: flex;
@@ -19,7 +19,7 @@
   &__row {
     display: flex;
 
-    @include for-medium-up {
+    @include for-large-up {
       flex: 1;
       justify-content: space-around;
     }
@@ -38,7 +38,7 @@
       border-right: none;
     }
 
-    @include for-medium-up {
+    @include for-large-up {
       border: none;
     }
   }

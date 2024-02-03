@@ -2,55 +2,40 @@
 
 .about {
   padding: 46px 15px;
-  background-color: #f4f5f7;
+  background-color: $color-light;
   width: 100%;
 
-  @include for-medium-up {
-    margin: auto;
+  @include for-large-up {
     display: flex;
     justify-content: space-between;
     padding: 77px 130px 76px 130px;
   }
-
 }
 
 .article {
-  &:last-child {
-    margin-top: 20px;
-
-    @include for-medium-up {
-      margin-top: 0;
-    }
-  }
-
-  // margin-top: 20px;
-
-  @include for-medium-up {
+  @include for-large-up {
     width: 555px;
   }
 
+  &:last-child {
+    margin-top: 20px;
 
+    @include for-large-up {
+      margin-top: 0;
+    }
 
-  &__title {
-    color: #2b292d;
+    &__title {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 32px;
+      margin: 0;
+    }
 
-    font-family: 'Work Sans';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    /* 145.455% */
-    margin: 0;
-  }
-
-  &__text {
-    color: #2b292d;
-    font-family: 'Work Sans';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-bottom: 0;
-    margin-top: 6px;
+    &__text {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 0;
+      margin-top: 6px;
+    }
   }
 }

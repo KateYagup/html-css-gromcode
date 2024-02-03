@@ -13,7 +13,7 @@
   font-size: 18px;
   width: 360px;
   margin-top: 26px;
-  color: #2b292d99;
+  color: $text-color-light-grey;
 }
 
 .footer-navigation {
@@ -89,7 +89,7 @@
 
 .terms__items {
   text-decoration: none;
-  color: #2b292d99;
+  color: $text-color-light-grey;
   margin-right: 22px;
 }
 

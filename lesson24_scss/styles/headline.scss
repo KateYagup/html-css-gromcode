@@ -1,13 +1,9 @@
 @import 'breakpoints.scss';
 
-
-
 .headline {
   width: 100%;
 
-
-
-  @include for-medium-up {
+  @include for-large-up {
     position: relative;
     width: 1140px;
     margin: auto;
@@ -16,12 +12,11 @@
     padding-bottom: 77px;
   }
 
-
   &__banner {
     width: 100%;
     margin-bottom: 36px;
 
-    @include for-medium-up {
+    @include for-large-up {
       position: relative;
       top: 0;
       right: -105px;
@@ -30,18 +25,16 @@
       margin-left: auto;
       /* margin-top: 84px; */
     }
-
   }
 
   &__content {
     margin: 35px 15px 33px 15px;
 
-    @include for-medium-up {
+    @include for-large-up {
       position: absolute;
       z-index: 1;
       margin: 0;
     }
-
   }
 
   &__title {
@@ -51,14 +44,12 @@
     letter-spacing: -0.312px;
     margin: 0;
 
-    @include for-medium-up {
-      font-family: 'Work Sans';
+    @include for-large-up {
       width: 754px;
       height: 165px;
       font-size: 80px;
       font-weight: 700;
       line-height: 78px;
-      /* 97.5% */
       letter-spacing: -0.5px;
       z-index: 1;
       margin: 0;
@@ -69,13 +60,12 @@
   &__description {
     margin-top: 24px;
     font-size: 24px;
-    font-weight: 400;
     line-height: 34px;
     margin-bottom: 0;
 
-    @include for-medium-up {
+    @include for-large-up {
       margin-top: 34px;
-      // margin-bottom: 0;
+      margin-bottom: 0;
       height: 102px;
       width: 456px;
       font-size: 24px;
@@ -87,12 +77,11 @@
   &__actions {
     margin-top: 30px;
 
-    @include for-medium-up {
+    @include for-large-up {
       margin-top: 58px;
       display: flex;
       /* margin-bottom: 126px; */
     }
-
   }
 
   &__learn-more-btn {
@@ -106,27 +95,18 @@
     border: none;
     margin-top: 15px;
 
-    @include for-medium-up {
+    @include for-large-up {
       margin-left: 10px;
       margin-top: 0;
-      color: #3040c4;
-      background-color: #fff;
-      width: 158px;
-      height: 48px;
-      font-size: 18px;
-      font-weight: 700;
-      border-radius: 2px;
-      border: none;
     }
-
   }
-}
 
-.headline__action-btn {
-  // width: 100%;
-  width: 100% !important;
+  &__action-btn {
+    // width: 100%;
+    width: 100% !important;
 
-  @include for-medium-up {
-    width: 158px !important;
+    @include for-large-up {
+      width: 158px !important;
+    }
   }
 }
